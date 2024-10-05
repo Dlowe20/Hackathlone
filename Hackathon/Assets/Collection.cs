@@ -6,6 +6,7 @@ using UnityEngine;
 public class Collection : MonoBehaviour
 {
    private HashSet<string> collection = new HashSet<string>();
+   public Timer timerManager;
 
     public void OnTriggerEnter(Collider other)
     {
@@ -26,6 +27,8 @@ public class Collection : MonoBehaviour
             {
                 collection.Add(itemName);
                 Debug.Log($"Collected: {itemName}");
+
+                timerManager.AddTime(5f);
 
                 Destroy(obj);
 
