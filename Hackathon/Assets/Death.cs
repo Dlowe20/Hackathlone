@@ -7,7 +7,7 @@ public class DestroyOnTrigger : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         // Check if the object that triggered the event is tagged "Water"
-        if (other.gameObject.tag == "Water" || other.gameObject.tag == "Penguin")
+        if (other.gameObject.tag == "Deer" || other.gameObject.tag == "Penguin")
         {
             // Destroy the player object
             Destroy(gameObject);
