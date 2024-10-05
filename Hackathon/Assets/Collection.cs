@@ -36,7 +36,7 @@ public class Collection : MonoBehaviour
             collection.Add(itemName); // Add the item to the collection
             Debug.Log($"Collected: {itemName}");
 
-            Destroy(obj);
+            Destroy(obj); 
 
             // Add time to the timer manager
             if (timerManager != null) // Ensure timerManager is assigned
