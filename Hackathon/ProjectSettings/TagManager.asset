@@ -5,9 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - CinemachineTarget
+  - Walkable
+  - berries
   - Berries
-  - Water
-  - Penguin
   layers:
   - Default
   - TransparentFX
