@@ -6,6 +6,8 @@ TagManager:
   tags:
   - CinemachineTarget
   - Walkable
+  - berries
+  - Berries
   layers:
   - Default
   - TransparentFX
